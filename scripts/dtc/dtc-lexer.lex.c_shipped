@@ -630,7 +630,7 @@ char *yytext;
 #include "dtc.h"
 #include "srcpos.h"
 #include "dtc-parser.tab.h"
-
+extern
 YYLTYPE yylloc;
 extern bool treesource_error;
 
